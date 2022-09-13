@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Netflix</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Iconos a utlizar: -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Scroll (ruleta de imagenes)-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <a href="" class="logo">
+        <img class="logo-n" src="images/logo-netflix.png" />Netflix
+      </a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <!-- Menu -->
+      <ul class="navbar">
+        <li><a href="#inicio" class="inicio-active">Inicio</a></li>
+        <li><a href="#peliculas">Peliculas</a></li>
+        <li><a href="#series">Series</a></li>
+        <li><a href="#info">Informacion</a></li>
+      </ul>
+      <a href="https://saulsuvargas.github.io/Formulario-con-login-y-registro/" class="btn">Registrarse</a>
+    </header>
+
+    <!-- Seccion Inicio -->
+    <section class="inicio swiper" id="inicio">
+      <div class="swiper-wrapper">
+        <!-- Box 1 -->
+        <div class="swiper-slide conatiner">
+          <img src="images/peaky blinder.jpg" alt="" />
+          <div class="inicio-text">
+            <h1>
+              Peaky <br />
+              Blinders
+            </h1>
+            <a href="#" class="btn"> Ver ahora</a>
+            <a href="#" class="play">
+              <i class="bx bx-play"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Box 2 -->
+        <div class="swiper-slide conatiner">
+          <img src="images/spiderman.jpg" alt="" />
+          <div class="inicio-text">
+            <span>Universo Marvel</span>
+            <h1>
+              Spiderman: <br />
+              No way home
+            </h1>
+            <a href="#" class="btn"> Ver ahora</a>
+            <a href="#" class="play">
+              <i class="bx bx-play"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Box 3 -->
+        <div class="swiper-slide conatiner">
+          <img src="images/venom.jpg" alt="" />
+          <div class="inicio-text">
+            <span>Universo Marvel</span>
+            <h1>
+              Venom <br />
+              Be Carnage
+            </h1>
+            <a href="#" class="btn"> Ver ahora</a>
+            <a href="#" class="play">
+              <i class="bx bx-play"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Box 4 -->
+        <div class="swiper-slide conatiner">
+          <img src="images/bojack.jpg" alt="" />
+          <div class="inicio-text">
+            <span>Producida: Netflix</span>
+            <h1>
+              Bojack <br />
+              Hoserman
+            </h1>
+            <a href="#" class="btn"> Ver ahora</a>
+            <a href="#" class="play">
+              <i class="bx bx-play"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Box 5 -->
+        <div class="swiper-slide conatiner">
+          <img src="images/theboys (1).jpg" alt="" />
+          <div class="inicio-text">
+            <span>Prime Original</span>
+            <h1>
+              The <br />
+              Boys
+            </h1>
+            <a href="#" class="btn"> Ver ahora</a>
+            <a href="#" class="play">
+              <i class="bx bx-play"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+
+    <!-- Seccion peliculas -->
+    <section class="peliculas" id="peliculas">
+      <h2 class="heading">Peliculas de esta semana</h2>
+      <!-- Box de Peliculas -->
+        <div class="peliculas-container">
+            <!-- Box Pelis 1-->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/post-spiderman.jpg" alt="" />
+                </div>
+                <h3>Spiderman</h3>
+                <span>120 min | Accion</span>
+            </div>
+            <!-- Box Pelis 2-->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/post-jhonwik.jpg" alt="" />
+                </div>
+                <h3>Jhon Wek 2</h3>
+                <span>120 min | Accion</span>
+            </div>
+            <!-- Box Pelis 3-->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/post-atman.jpg" alt="" />
+                </div>
+                <h3>Atman</h3>
+                <span>120 min | Accion</span>
+            </div>
+            <!-- Box Pelis 4-->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/post-justice.jpg" alt="" />
+                </div>
+                <h3>Liga de la Justicia</h3>
+                <span>120 min | Accion</span>
+            </div>
+            <!-- Box Pelis 5-->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/post-strange.jpeg" alt="" />
+                </div>
+                <h3>Doctor Strange</h3>
+                <span>120 min | Accion</span>
+            </div>
+            <!-- Box Pelis 6-->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/post-capitanamarvel.jpg" alt="" />
+                </div>
+                <h3>Capitana Marvel</h3>
+                <span>120 min | Accion</span>
+            </div>
+            <!-- Box Pelis 7-->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/post-guardianes.jpg" alt="" />
+                </div>
+                <h3>Guardianes de la Galaxia</h3>
+                <span>120 min | Accion</span>
+            </div>
+            <!-- Box Pelis 8-->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/post-venom.jpg" alt="" />
+                </div>
+                <h3>Venom</h3>
+                <span>120 min | Accion</span>
+            </div>
+            <!-- Box Pelis 9-->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/post-thor.jpg" alt="" />
+                </div>
+                <h3>Thor</h3>
+                <span>120 min | Accion</span>
+            </div>
+            <!-- Box Pelis 10-->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/post-superman.jpg" alt="" />
+                </div>
+                <h3>Batman vs Superman</h3>
+                <span>120 min | Accion</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion Series -->
+    <section class="series" id="series">
+        <h2 class="heading">Series populares</h2>
+        <!-- Series container-->
+        <div class="series-container swiper">
+            <div class="swiper-wrapper">
+                <!-- Box Series1-->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="images/dark.jpg" alt="" />
+                    </div>
+                    <h3>Dark</h3>
+                    <span>4 Temporadas | Accion</span>
+                </div>
+                <!-- Box Series2-->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="images/post-bojack.jpg" alt="" />
+                    </div>
+                    <h3>Bojack Hoserman</h3>
+                    <span>8 Temporadas | Accion</span>
+                </div>
+                <!-- Box Series3-->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="images/breaking.jpg" alt="" />
+                    </div>
+                    <h3>Breaking Bad</h3>
+                    <span>4 Temporadas | Accion</span>
+                </div>
+                <!-- Box Series4-->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="images/fuck.jpg" alt="" />
+                    </div>
+                    <h3>The End Of the Fucking World</h3>
+                    <span>3 Temporadas | Accion</span>
+                </div>
+                <!-- Box Series5-->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="images/13.jpg" alt="" />
+                    </div>
+                    <h3>13 reason why</h3>
+                    <span>7 Temporadas | Accion</span>
+                </div>
+                <!-- Box Series6-->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="images/education.jpeg" alt="" />
+                    </div>
+                    <h3>Sex education</h3>
+                    <span>4 Temporadas | Accion</span>
+                </div>
+                <!-- Box Series7-->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="images/lupin.jpg" alt="" />
+                    </div>
+                    <h3>Luping</h3>
+                    <span>2 Temporadas | Accion</span>
+                </div>
+                <!-- Box Series8-->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="images/casadepapel.jpg" alt="" />
+                    </div>
+                    <h3>La Casa de Papel</h3>
+                    <span>5 Temporadas | Accion</span>
+                </div>
+                <!-- Box Series9-->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="images/post-peaky blinder.jpg" alt="" />
+                    </div>
+                    <h3>Peaky Blinders</h3>
+                    <span>6 Temporadas | Accion</span>
+                </div>
+                <!-- Box Series10-->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="images/post-boys.jpg" alt="" />
+                    </div>
+                    <h3>The Boys</h3>
+                    <span>5 Temporadas | Accion</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registrarse -->
+    <section class="newsletter" id="info">
+        <h2>Suscribete ahora <br> </h2>
+        <form action="">
+            <input type="email" class="email" placeholder="Ingresa tu correo" required>
+            <input type="submit" value="Suscribirse" class="btn">
+        </form>
+    </section>
+    
+    <!-- Seccion Footer -->
+    <section class="footer">
+        <a href="" class="logo">
+            <img class="logo-n" src="images/logo-netflix.png" />Netflix
+        </a>
+        <div class="social">
+             <a href="https://www.facebook.com/saul.suvargas" target="_blank"><i class='bx bxl-facebook'></i></a>
+             <a href="https://twitter.com/Saulsu27" target="_blank"><i class='bx bxl-twitter'></i></a>
+             <a href="https://www.instagram.com/saulsuvargas/" target="_blank"><i class='bx bxl-instagram'></i></a>
+        </div>
+    </section>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&copy; Creado por
+            <a href="https://www.instagram.com/saulsuvargas/" target="_blank"
+              >Saul Su Vargas
+            </a>
+        </p>
+    </div>
+    <!-- Swiper js(ruleta de imagenes) -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Configurar script -->
+    <script src="script.js"></script>
+  </body>
+</html>
